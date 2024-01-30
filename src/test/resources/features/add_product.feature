@@ -1,4 +1,4 @@
-Feature: Add product to cart
+Feature: Add product to cart successful
 
   Scenario: Add product to cart
     Given Dave is on the main page

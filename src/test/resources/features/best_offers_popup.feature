@@ -1,4 +1,4 @@
-Feature: Close best offers popup
+Feature: Close best offers popup successful
 
   Scenario: Close best offers popup
     Given Dave is on the main page
