@@ -23,7 +23,7 @@ public class SearchProduct implements Task {
         actor.attemptsTo(
                 WaitUntil.the(SEARCH_PRODUCT_INPUT, isVisible()),
                 Enter.theValue(PRODUCT_NAME.getValue()).into(SEARCH_PRODUCT_INPUT),
-                Click.on(FIRST_OPTION_RESULT),
+                Click.on(SEARCH_BUTTON),
                 WaitUntil.the(FIRST_PRODUCT_RESULT, isVisible()),
                 Click.on(FIRST_PRODUCT_RESULT),
                 WaitUntil.the(PURCHASE_BUTTON_PRODUCT, isVisible()),

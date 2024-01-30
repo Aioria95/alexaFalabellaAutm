@@ -2,7 +2,7 @@ package com.wilson.utils;
 
 public enum Constants {
 
-    PRODUCT_NAME("Cortinas");
+    PRODUCT_NAME("Samsung s23");
 
     private String value;
 
